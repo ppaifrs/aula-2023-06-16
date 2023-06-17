@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-06-17T00:16:23.047444618Z</date>
+  <millis>1686960983047</millis>
+  <nanos>444618</nanos>
+  <sequence>0</sequence>
+  <logger>app.App</logger>
+  <level>INFO</level>
+  <class>app.App</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Configurando servidor no endereço localhost</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.110942639Z</date>
+  <millis>1686960983110</millis>
+  <nanos>942639</nanos>
+  <sequence>1</sequence>
+  <logger>app.App</logger>
+  <level>INFO</level>
+  <class>app.App</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Configurando servidor na porta 8081</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.134611168Z</date>
+  <millis>1686960983134</millis>
+  <nanos>611168</nanos>
+  <sequence>2</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Instanciando o FrontController</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.135471284Z</date>
+  <millis>1686960983135</millis>
+  <nanos>471284</nanos>
+  <sequence>3</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Criando o contexto /</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.138683486Z</date>
+  <millis>1686960983138</millis>
+  <nanos>683486</nanos>
+  <sequence>4</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Tentando registrar app.controller.DocumentoController</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.150137891Z</date>
+  <millis>1686960983150</millis>
+  <nanos>137891</nanos>
+  <sequence>5</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Registrando a classe class app.controller.DocumentoController</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.151083157Z</date>
+  <millis>1686960983151</millis>
+  <nanos>83157</nanos>
+  <sequence>6</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Registrando o endpoint docs</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.155149949Z</date>
+  <millis>1686960983155</millis>
+  <nanos>149949</nanos>
+  <sequence>7</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Registrando o método lista para o caminho listar</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.159269823Z</date>
+  <millis>1686960983159</millis>
+  <nanos>269823</nanos>
+  <sequence>8</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Tentando registrar app.controller.AlunosController</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.160403270Z</date>
+  <millis>1686960983160</millis>
+  <nanos>403270</nanos>
+  <sequence>9</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Registrando a classe class app.controller.AlunosController</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.161469381Z</date>
+  <millis>1686960983161</millis>
+  <nanos>469381</nanos>
+  <sequence>10</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Registrando o endpoint alunos</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.162708195Z</date>
+  <millis>1686960983162</millis>
+  <nanos>708195</nanos>
+  <sequence>11</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Registrando o método listar para o caminho todos</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.163658746Z</date>
+  <millis>1686960983163</millis>
+  <nanos>658746</nanos>
+  <sequence>12</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>register</method>
+  <thread>1</thread>
+  <message>Registrando o método getMatricula para o caminho matricula</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:23.164375375Z</date>
+  <millis>1686960983164</millis>
+  <nanos>375375</nanos>
+  <sequence>13</sequence>
+  <logger>app.App</logger>
+  <level>INFO</level>
+  <class>app.App</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Servidor ouvindo em localhost:8081</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:25.891862958Z</date>
+  <millis>1686960985891</millis>
+  <nanos>862958</nanos>
+  <sequence>14</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>Atendendo requisição para docs/listar</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:25.893916653Z</date>
+  <millis>1686960985893</millis>
+  <nanos>916653</nanos>
+  <sequence>15</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>Requisição [docs, listar]</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:25.895568948Z</date>
+  <millis>1686960985895</millis>
+  <nanos>568948</nanos>
+  <sequence>16</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>Pair app.FrontController$Pair@6fa02280</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:25.900686302Z</date>
+  <millis>1686960985900</millis>
+  <nanos>686302</nanos>
+  <sequence>17</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>Método localizado public app.http.Response app.controller.DocumentoController.lista(app.http.Request)</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:25.902061637Z</date>
+  <millis>1686960985902</millis>
+  <nanos>61637</nanos>
+  <sequence>18</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>Query null</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:25.904533673Z</date>
+  <millis>1686960985904</millis>
+  <nanos>533673</nanos>
+  <sequence>19</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>Body da resposta {"a": 1, "b": 2}</message>
+</record>
+<record>
+  <date>2023-06-17T00:16:25.906588486Z</date>
+  <millis>1686960985906</millis>
+  <nanos>588486</nanos>
+  <sequence>20</sequence>
+  <logger>app.FrontController</logger>
+  <level>INFO</level>
+  <class>app.FrontController</class>
+  <method>handle</method>
+  <thread>16</thread>
+  <message>Body length 16</message>
+</record>
+</log>
